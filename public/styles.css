@@ -1,0 +1,23 @@
+* {
+  text-align: center;
+}
+
+body {
+  border: 1px solid black;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  color: #903;
+  font-family: Helvetica, Arial, sans-serif;
+}
+header h1 {
+  font-size: 40px;
+  background: transparent url(/images/logo.png) 0 0 no-repeat;
+}
+p{
+font-family: arial;
+}
