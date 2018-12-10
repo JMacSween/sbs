@@ -12,8 +12,6 @@ end
 
 set :public_folder, 'public'
 set :views, 'views'
-#set :root, File.dirname(__FILE__)
-
 
 __END__
 @@layout
