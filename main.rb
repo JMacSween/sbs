@@ -13,7 +13,3 @@ end
 
 set :public_folder, 'public'
 set :views, 'views'
-
-group 'development' do
-  gem 'sinatra-contrib'
-end
