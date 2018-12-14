@@ -1,5 +1,10 @@
 require 'sinatra'
 require 'sinatra/reloader' if development?
+require 'sass'
+require "./song.rb"
+require 'slim'
+
+get('/styles.css'){ scss :styles }
 
 get '/' do
   erb :home
